@@ -14,9 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const linkWithoutSlash = linkValue.replace(slash, "%2F");
     const linkWithoutColon = linkWithoutSlash.replace(colon, "%3A");
     console.log(linkValue.replace(slash, "%2F"));
-
-    window.open(facebookDebbugerLink + linkWithoutColon, "_blank");
-    window.open(linkedinDebbugerLink + linkWithoutSlash, "_blank");
+    window.open(facebookDebbugerLink + linkWithoutColon, "_blank", "noopener");
+    window.open(linkedinDebbugerLink + linkWithoutSlash, "_blank", "noopener");
   }
   Button.addEventListener("click", executeFunction);
 });
