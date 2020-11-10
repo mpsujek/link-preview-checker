@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    margin: 0 0 20px 0 ;
+}
+.container
+{
+    padding: 20px;
+    box-shadow: 5px 5px 15px 1px #000000;
+}
+
+.twitter_container{
+    padding-top: 20px;
+}
